@@ -36,7 +36,7 @@ let eightApps = apps.slice(0, 8)
         <div className="flex justify-between">
             <div className="bg-gray-100 p-2 text-green-600 rounded font-semibold flex items-center gap-1"><span><FaDownload /></span> {app.downloads/1000000}M</div>
 
-            <div className="bg-pink-100 p-2 text-green-600 rounded font-semibold flex items-center gap-1 text-pink-700"><span><FaStar className="text-pink-400" /></span> {app.ratingAvg}</div>
+            <div className="bg-pink-100 p-2 rounded font-semibold flex items-center gap-1 text-pink-700"><span><FaStar className="text-pink-400" /></span> {app.ratingAvg}</div>
 
 
 
