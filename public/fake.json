@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/056/409/761/non_2x/mobile-app-ui-design-icons-graphics-and-user-interface-free-png.png",
+    "title": "Notion",
+    "companyName": "Notion Labs Inc.",
+    "id": 1,
+    "description": "All-in-one workspace for notes, tasks, wikis, and projects — perfect for teams and individuals.",
+    "size": 180,
+    "reviews": 105000,
+    "ratingAvg": 4.8,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 72500 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/element_pic/16/11/07/6de0f989fea69c221d8f2dbd6bf821c3.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 2,
+    "description": "Capture ideas, organize notes, and access them anywhere — your second brain for productivity.",
+    "size": 155,
+    "reviews": 89000,
+    "ratingAvg": 4.5,
+    "downloads": 9800000,
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 5600 },
+      { "name": "4 star", "count": 21500 },
+      { "name": "5 star", "count": 55600 }
+    ]
+  },
+  {
+    "image": "https://e7.pngegg.com/pngimages/124/394/png-clipart-mobile-application-app-icon.png",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 3,
+    "description": "Visual tool for managing projects and tasks with boards, lists, and cards.",
+    "size": 160,
+    "reviews": 72000,
+    "ratingAvg": 4.6,
+    "downloads": 8700000,
+    "ratings": [
+      { "name": "1 star", "count": 1900 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 4100 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 41500 }
+    ]
+  },
+  {
+    "image": "https://www.nicepng.com/png/detail/28-281385_mobile-app-development-mobile-apps-and-games.png",
+    "title": "Todoist",
+    "companyName": "Doist Ltd.",
+    "id": 4,
+    "description": "Powerful task manager to organize your work and life with smart scheduling and reminders.",
+    "size": 135,
+    "reviews": 64000,
+    "ratingAvg": 4.7,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 17500 },
+      { "name": "5 star", "count": 40300 }
+    ]
+  },
+  {
+    "image": "https://w7.pngwing.com/pngs/136/765/png-transparent-apple-photos-gallery-photo-photography-picture-pictures-apple-apps-icon-thumbnail.png",
+    "title": "Asana",
+    "companyName": "Asana Inc.",
+    "id": 5,
+    "description": "Manage projects, set goals, and communicate effortlessly with your team.",
+    "size": 200,
+    "reviews": 59000,
+    "ratingAvg": 4.6,
+    "downloads": 7100000,
+    "ratings": [
+      { "name": "1 star", "count": 1600 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 18200 },
+      { "name": "5 star", "count": 33400 }
+    ]
+  },
+  {
+    "image": "https://w7.pngwing.com/pngs/588/140/png-transparent-mobile-app-euclidean-icon-click-the-ppt-phone-material-blue-gadget-hand.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 6,
+    "description": "A modern communication hub for teams, with channels, direct messages, and integrations.",
+    "size": 220,
+    "reviews": 150000,
+    "ratingAvg": 4.4,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 6500 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 89600 }
+    ]
+  },
+  {
+    "image": "https://w7.pngwing.com/pngs/588/140/png-transparent-mobile-app-euclidean-icon-click-the-ppt-phone-material-blue-gadget-hand.png",
+    "title": "Clockify",
+    "companyName": "COING Inc.",
+    "id": 7,
+    "description": "Free time tracking tool for teams and freelancers — track productivity easily.",
+    "size": 110,
+    "reviews": 32000,
+    "ratingAvg": 4.7,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 18500 }
+    ]
+  },
+  {
+    "image": "https://www.pngall.com/wp-content/uploads/5/Mobile-Application-PNG.png",
+    "title": "Monday.com",
+    "companyName": "Monday Ltd.",
+    "id": 8,
+    "description": "Powerful work OS to manage projects, workflows, and teams visually and efficiently.",
+    "size": 190,
+    "reviews": 88000,
+    "ratingAvg": 4.5,
+    "downloads": 9600000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 57500 }
+    ]
+  },
+  {
+    "image": "https://freepngimg.com/save/66247-google-business-company-application-suite-email/506x705",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 9,
+    "description": "Video conferencing and online meetings with chat and collaboration tools.",
+    "size": 230,
+    "reviews": 410000,
+    "ratingAvg": 4.3,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 24000 },
+      { "name": "2 star", "count": 31000 },
+      { "name": "3 star", "count": 47000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 188000 }
+    ]
+  },
+  {
+    "image": "https://www.pngall.com/wp-content/uploads/5/Mobile-Application-PNG.png",
+    "title": "Google Keep",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Quick note-taking app with reminders, voice memos, and syncing across devices.",
+    "size": 90,
+    "reviews": 200000,
+    "ratingAvg": 4.6,
+    "downloads": 35000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 6200 },
+      { "name": "3 star", "count": 11500 },
+      { "name": "4 star", "count": 55000 },
+      { "name": "5 star", "count": 123800 }
+    ]
+  },
+  {
+    "image": "https://freepngimg.com/save/66247-google-business-company-application-suite-email/506x705",
+    "title": "Forest",
+    "companyName": "Seekrtech",
+    "id": 11,
+    "description": "Stay focused by growing virtual trees as you work — the more you focus, the more trees you plant.",
+    "size": 100,
+    "reviews": 97000,
+    "ratingAvg": 4.8,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 78500 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/element_our/png/20181015/mobile-applications-and-mobile-development-concept.-flat-vector-illustration.-png_133093.jpg",
+    "title": "Notability",
+    "companyName": "Ginger Labs",
+    "id": 12,
+    "description": "Digital note-taking app with handwriting, PDF markup, and audio recording.",
+    "size": 250,
+    "reviews": 34000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 8800 },
+      { "name": "5 star", "count": 21400 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/pCV7D1kV4mrvFDJLYHQ6E0ntrRPgQvf2L-7Sst0z6eTNRCZ-YB1SnSTUquRWj_S2wLE=w240-h480-rw",
+    "title": "Any.do",
+    "companyName": "Any.do Ltd.",
+    "id": 13,
+    "description": "Plan your day, manage tasks, and sync reminders seamlessly across all devices.",
+    "size": 130,
+    "reviews": 54000,
+    "ratingAvg": 4.5,
+    "downloads": 8200000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/element_our/png/20181015/mobile-applications-and-mobile-development-concept.-flat-vector-illustration.-png_133093.jpg",
+    "title": "Toggl Track",
+    "companyName": "Toggl OÜ",
+    "id": 14,
+    "description": "Simple time tracking app to boost productivity and monitor work hours.",
+    "size": 115,
+    "reviews": 22000,
+    "ratingAvg": 4.7,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 6700 },
+      { "name": "5 star", "count": 12700 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/pCV7D1kV4mrvFDJLYHQ6E0ntrRPgQvf2L-7Sst0z6eTNRCZ-YB1SnSTUquRWj_S2wLE=w240-h480-rw",
+    "title": "Microsoft To Do",
+    "companyName": "Microsoft Corporation",
+    "id": 15,
+    "description": "Daily planner and to-do list app that integrates with Outlook and Microsoft 365.",
+    "size": 170,
+    "reviews": 180000,
+    "ratingAvg": 4.6,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 6200 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 65000 },
+      { "name": "5 star", "count": 92500 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJgyhuUks4aAdRH7oZZnRruZKV8LNsmz1IM0PD7tw7pRpLndERgLuEytv3iceJDMObLHI&usqp=CAU",
+    "title": "TickTick",
+    "companyName": "Appest Inc.",
+    "id": 16,
+    "description": "Task manager, habit tracker, and calendar — all in one beautifully designed app.",
+    "size": 140,
+    "reviews": 41000,
+    "ratingAvg": 4.7,
+    "downloads": 6800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 13000 },
+      { "name": "5 star", "count": 24200 }
+    ]
+  },
+  {
+    "image": "https://img.lovepik.com/element/45009/8993.png_860.png",
+    "title": "Simple Notes",
+    "companyName": "NotesLab",
+    "id": 17,
+    "description": "Lightweight note-taking app that saves everything instantly and works offline.",
+    "size": 75,
+    "reviews": 12000,
+    "ratingAvg": 4.4,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5600 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJgyhuUks4aAdRH7oZZnRruZKV8LNsmz1IM0PD7tw7pRpLndERgLuEytv3iceJDMObLHI&usqp=CAU",
+    "title": "Obsidian",
+    "companyName": "Obsidian Labs",
+    "id": 18,
+    "description": "Powerful markdown knowledge base for organizing notes and personal documentation.",
+    "size": 210,
+    "reviews": 18000,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 11800 }
+    ]
+  },
+  {
+    "image": "https://img.lovepik.com/element/45009/8993.png_860.png",
+    "title": "ClickUp",
+    "companyName": "ClickUp LLC",
+    "id": 19,
+    "description": "All-in-one productivity app to plan, track, and collaborate on any project.",
+    "size": 190,
+    "reviews": 64000,
+    "ratingAvg": 4.5,
+    "downloads": 7800000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 3600 },
+      { "name": "4 star", "count": 21000 },
+      { "name": "5 star", "count": 38700 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/018/824/854/small/3d-cartoon-render-of-businessman-hand-holding-smartphone-with-blank-screen-for-mockup-template-png.png",
+    "title": "Airtable",
+    "companyName": "Airtable Inc.",
+    "id": 20,
+    "description": "Flexible database and spreadsheet tool that helps teams organize anything.",
+    "size": 175,
+    "reviews": 51000,
+    "ratingAvg": 4.6,
+    "downloads": 6400000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 16500 },
+      { "name": "5 star", "count": 29100 }
+    ]
+  }
+]
