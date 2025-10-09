@@ -5,6 +5,7 @@ import MainLayOut from "../Components/LayOut/MainLayOut";
 
 import AppPage from "../Pages/App/AppPage";
 import AppDetails from "../Pages/App/AppDetails";
+import Installation from "../Pages/Installation/installation";
 
 
 const router = createBrowserRouter([
@@ -29,7 +30,12 @@ const router = createBrowserRouter([
         {
           path: '/appDetail/:id',
           element: <AppDetails></AppDetails>
-        }
+        },
+
+        {
+          path: '/installation',
+          element: <Installation></Installation>
+        },
 
 
     ]

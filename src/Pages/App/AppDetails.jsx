@@ -2,6 +2,8 @@ import { useParams } from "react-router";
 import useApps from "../../Hooks/useApps";
 import { FaDownload, FaRegCommentDots, FaStar } from "react-icons/fa";
 import Loading from "../../Components/Loading/Loading";
+import Installation from "../Installation/installation";
+import { updateData } from "../../Utils/localStorage";
 
 
 const AppDetails = () => {
@@ -73,10 +75,14 @@ const AppDetails = () => {
 
       {/* Right: Install Button */}
       <div className="flex-shrink-0">
-        <button className="bg-[#00C853] hover:bg-[#00b84a] text-white font-semibold px-6 py-3 rounded-md shadow-md transition-all">
+        <button onClick={()=>updateData(data.id)} className="bg-[#00C853] hover:bg-[#00b84a] text-white font-semibold px-6 py-3 rounded-md shadow-md transition-all">
           Install Now ({data.size} MB)
         </button>
       </div>
+
+
+
+
     </div>
     );
 };
