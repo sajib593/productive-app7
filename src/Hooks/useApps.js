@@ -13,7 +13,7 @@ let useApps =()=>{
 
         setLoading(true)
 
-        axios('../fake.json')
+        axios('/fake.json')
         .then(data => setApps(data.data))
         .catch(err => setError(err))
         .finally(()=> setLoading(false))
