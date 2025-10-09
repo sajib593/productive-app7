@@ -6,7 +6,7 @@ import { CiStar } from "react-icons/ci";
 
 const TrendingApps = () => {
 
-    let {apps, loading} = useApps()
+    let {apps} = useApps()
 //    console.log(apps);
 
 let eightApps = apps.slice(0, 8)

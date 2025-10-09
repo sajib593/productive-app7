@@ -4,17 +4,21 @@ import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 
 
-import { Outlet } from "react-router";
+import { Outlet, useNavigation } from "react-router";
+import Loading from "../Loading/Loading";
 
 
 const MainLayOut = () => {
+
+  let navigation = useNavigation();
+
     return (
       <>
 
 
       
    <Toaster
-        position="top-center"
+        position="top-right"
         toastOptions={{
           duration: 2000,
           style: { background: '#333', color: '#fff' },
@@ -28,7 +32,11 @@ const MainLayOut = () => {
 
             <NavBar></NavBar>
 
-            <Outlet></Outlet>
+             {navigation.state === "loading" ? (
+          <Loading /> // your spinner or skeleton
+        ) : (
+          <Outlet />
+        )}
 
             <Footer></Footer>
         </div>

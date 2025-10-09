@@ -6,6 +6,7 @@ import Installation from "../Installation/installation";
 import { updateData } from "../../Utils/localStorage";
 import toast from "react-hot-toast";
 import { useState } from "react";
+import Charts from "../../Components/Charts/Charts";
 
 
 
@@ -38,6 +39,9 @@ const AppDetails = () => {
 
 
   return (
+
+    <>
+
     <div className="bg-white shadow-md rounded-lg p-6 flex flex-col md:flex-row items-center justify-between gap-6 max-w-7xl mx-auto mt-10">
 
  
@@ -110,9 +114,18 @@ const AppDetails = () => {
       </div>
 
 
+              
 
 
     </div>
+
+
+              <div>
+                <Charts data={data}></Charts>
+              </div>
+
+
+    </>
   );
 };
 
