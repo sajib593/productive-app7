@@ -15,24 +15,42 @@ const Banner = () => {
 
             <br />
 
-            <div>           
-                <h5  className='text-center text-xs'>AI HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</h5>
+            <div>
+                <h5 className='text-center text-xs'>AI HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</h5>
             </div>
 
             <br /><br />
 
 
-            <div className='text-center'>
+            <div className='text-center flex justify-center gap-2'>
 
-                <Link className='btn btn-soft btn-primary rounded font-semibold mr-3'> <FaGooglePlay className='text-blue-500' />  Googel Play</Link>
+                <a
+                    href="https://play.google.com/store/games?hl=es_419"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-soft btn-primary rounded font-semibold mr-3"
+                >
+                    <FaGooglePlay className="text-blue-500" /> Google Play
+                </a>
 
 
-                <Link className='btn btn-soft btn-primary rounded font-semibold'> <FaAppStoreIos className='text-blue-500' />  App Store</Link>
 
 
-              
+                {/* <Link to={`https://www.apple.com/app-store`} className='btn btn-soft btn-primary rounded font-semibold'> <FaAppStoreIos className='text-blue-500' />  App Store</Link> */}
+
+                <a
+                    href="https://www.apple.com/app-store"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-soft btn-primary rounded font-semibold"
+                >
+                    <FaAppStoreIos className="text-blue-500" /> App Store
+                </a>
+
+
+
             </div>
-            
+
         </div>
     );
 };

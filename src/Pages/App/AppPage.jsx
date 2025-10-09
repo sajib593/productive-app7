@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 
 const AppPage = () => {
     
-    let {apps, loading} = useApps();
+    let {apps} = useApps();
     // console.log(apps);
 
     return (
@@ -32,7 +32,7 @@ const AppPage = () => {
 
 
             <br />
-                        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
             
                         {
                             

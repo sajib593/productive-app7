@@ -4,6 +4,14 @@ import { Link, NavLink } from 'react-router';
 import logo from "./../../assets/logo.png"
 
 const NavBar = () => {
+
+  const navLinkClass = ({ isActive }) =>
+    isActive
+      ? "text-orange-500 font-semibold border-b-2 border-orange-500"
+      : "text-gray-700 hover:text-orange-500";
+
+
+
     return (
           <div className='navbar bg-base-100 shadow-sm'>
       <div className='navbar-start'>
@@ -30,13 +38,13 @@ const NavBar = () => {
             className='menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow'
           >
             <li>
-              <NavLink to='/'>Home</NavLink>
+              <NavLink className={navLinkClass} to='/'>Home</NavLink>
             </li>
             <li>
-              <NavLink to='/app'>Apps</NavLink>
+              <NavLink className={navLinkClass} to='/app'>Apps</NavLink>
             </li>
             <li>
-              <NavLink to='/installation'>Installation</NavLink>
+              <NavLink className={navLinkClass} to='/installation'>Installation</NavLink>
             </li>
           </ul>
         </div>
@@ -54,13 +62,13 @@ const NavBar = () => {
 
          <ul className='menu menu-horizontal px-1 hidden lg:flex font-semibold'>
           <li>
-            <NavLink to='/'>Home</NavLink> 
+            <NavLink className={navLinkClass} to='/'>Home</NavLink> 
           </li>
           <li>
-            <NavLink to='/app'>Apps</NavLink>
+            <NavLink className={navLinkClass} to='/app'>Apps</NavLink>
           </li>
           <li>
-            <NavLink to='/installation'>Installation</NavLink>
+            <NavLink className={navLinkClass} to='/installation'>Installation</NavLink>
           </li>
         </ul>
       </div>
@@ -69,10 +77,10 @@ const NavBar = () => {
 
       <div className='navbar-end'>
        
-        <NavLink to='/products' className='btn bg-gradient-to-r from-orange-400 to-purple-600 text-white'>
+        <a href='https://github.com/sajib593' className='btn bg-gradient-to-r from-orange-400 to-purple-600 text-white'>
         <FaGithub />
           Contribute
-        </NavLink>
+        </a>
       </div>
     </div>
     );

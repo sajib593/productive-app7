@@ -3,6 +3,7 @@ import { getData, removeFromAppList } from '../../Utils/localStorage';
 import useApps from '../../Hooks/useApps';
 import Loading from '../../Components/Loading/Loading';
 import { FaDownload, FaStar } from 'react-icons/fa';
+import toast from 'react-hot-toast';
 
 const Installation = () => {
 
@@ -12,13 +13,13 @@ const Installation = () => {
     
 
     let {apps, loading} = useApps();
+    // console.log(apps);
     
     if (loading){
         
        return <Loading></Loading>
         
     }
-    // console.log(apps);
 
     let installedApps = apps.filter(data=> localStorageData.includes(data.id))
     console.log(installedApps);
@@ -27,11 +28,24 @@ const Installation = () => {
 
         removeFromAppList(id)
         setLocalStorageData(pre=> pre.filter(p => p !== id))
+        toast.success("✅ Uninstall App successfully!");
 
     }
+
+
+   
     
 
     return (
+    <>
+
+
+       <h1 className="text-5xl font-bold text-center">Your Installed Apps</h1> <br />
+
+            <h5 className="text-lg text-center">Explore All Trending Apps on the Market developed by us</h5>
+
+
+    
      <div className="space-y-4 max-w-4xl mx-auto p-4">
       {installedApps.length > 0 ? (
         installedApps.map(app => (
@@ -83,6 +97,8 @@ const Installation = () => {
         <p className="text-center text-gray-500">No installed apps found.</p>
       )}
     </div>
+    
+    </>
     );
 };
 

@@ -1,3 +1,4 @@
+import toast from "react-hot-toast";
 
 
 export let getData = () =>{
@@ -25,7 +26,8 @@ export let updateData = (data)=>{
         let isDuplicate = appList.some(a => a === data)
         if (isDuplicate){
 
-            return alert('This is duplicate maal')
+            // return alert('This is duplicate maal')
+            return toast.success("✅ This is duplicate maal!");
         }
 
         let updateAppList = [...appList, data]
@@ -46,7 +48,7 @@ export let removeFromAppList =(id)=>{
     let appList = getData()
 
     try {
-        let updateList = appList.filter(f => f.id !== id)
+        let updateList = appList.filter(f => f !== id)
         localStorage.setItem('appList', JSON.stringify(updateList))
     }
 
