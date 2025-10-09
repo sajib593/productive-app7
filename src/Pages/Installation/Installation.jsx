@@ -1,26 +1,34 @@
-import React from 'react';
-import { getData } from '../../Utils/localStorage';
+import React, { useState } from 'react';
+import { getData, removeFromAppList } from '../../Utils/localStorage';
 import useApps from '../../Hooks/useApps';
 import Loading from '../../Components/Loading/Loading';
 import { FaDownload, FaStar } from 'react-icons/fa';
 
 const Installation = () => {
 
-    let localStorageData = getData();
+    let [localStorageData, setLocalStorageData] = useState(()=> getData());
     //  console.log(localStorageData);
+    
     
 
     let {apps, loading} = useApps();
     
     if (loading){
         
-        <Loading></Loading>
+       return <Loading></Loading>
         
     }
     // console.log(apps);
 
     let installedApps = apps.filter(data=> localStorageData.includes(data.id))
     console.log(installedApps);
+
+    let handleRemove =(id)=>{
+
+        removeFromAppList(id)
+        setLocalStorageData(pre=> pre.filter(p => p !== id))
+
+    }
     
 
     return (
@@ -63,7 +71,8 @@ const Installation = () => {
 
             {/* Right Section */}
             <button
-              onClick={() => alert(`Uninstalled ${app.title}`)}
+            onClick={()=>handleRemove(app.id)}
+            
               className="mt-3 sm:mt-0 bg-[#00C853] hover:bg-[#00b84a] text-white font-medium px-5 py-2 rounded-md transition-all"
             >
               Uninstall
